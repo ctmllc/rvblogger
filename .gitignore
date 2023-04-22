@@ -1,0 +1,17 @@
+# .gitignore
+
+# Ignore sensitive files
+wp-config.php
+wp-content/debug.log
+
+# Ignore cache and temporary files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Ignore build artifacts and generated files
+wp-content/themes/*/dist/
+wp-content/themes/*/node_modules/
+wp-content/plugins/*/dist/
+wp-content/plugins/*/node_modules/
+
